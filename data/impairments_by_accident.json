@@ -1,0 +1,3506 @@
+{
+  "교통사고": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  },
+  "배상책임사고": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  },
+  "산재사고": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  },
+  "해상사고": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  },
+  "개인보험": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  },
+  "단체보험": {
+    "맥브라이드": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    },
+    "AMA": {
+      "척추": [
+        {
+          "code": "SP-COMP-C1",
+          "name": "경추부 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-a"
+        },
+        {
+          "code": "SP-COMP-T10+",
+          "name": "흉추부(제10흉추 이상) 압박골절",
+          "rate": 27,
+          "ref": "Ⅰ-A-1-b"
+        },
+        {
+          "code": "SP-COMP-T11-L1",
+          "name": "흉요추부(Th11~L1) 압박골절",
+          "rate": 32,
+          "ref": "Ⅰ-A-1-c"
+        },
+        {
+          "code": "SP-COMP-L2-",
+          "name": "요추부(제2요추 이하) 압박골절",
+          "rate": 29,
+          "ref": "Ⅰ-A-1-d"
+        },
+        {
+          "code": "SP-LAM-C",
+          "name": "추궁판 골절(경추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-2-a"
+        },
+        {
+          "code": "SP-LAM-T",
+          "name": "추궁판 골절(흉추)",
+          "rate": 14,
+          "ref": "Ⅰ-A-2-b"
+        },
+        {
+          "code": "SP-LAM-TL",
+          "name": "추궁판 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-2-c"
+        },
+        {
+          "code": "SP-LAM-L",
+          "name": "추궁판 골절(요추)",
+          "rate": 27,
+          "ref": "Ⅰ-A-2-d"
+        },
+        {
+          "code": "SP-PROC-C",
+          "name": "횡/극돌기 골절(경추)",
+          "rate": 18,
+          "ref": "Ⅰ-A-3-a"
+        },
+        {
+          "code": "SP-PROC-T",
+          "name": "횡/극돌기 골절(흉추)",
+          "rate": 23,
+          "ref": "Ⅰ-A-3-b"
+        },
+        {
+          "code": "SP-PROC-TL",
+          "name": "횡/극돌기 골절(흉요추)",
+          "rate": 26,
+          "ref": "Ⅰ-A-3-c"
+        },
+        {
+          "code": "SP-PROC-L",
+          "name": "횡/극돌기 골절(요추)",
+          "rate": 24,
+          "ref": "Ⅰ-A-3-d"
+        },
+        {
+          "code": "SP-HNP-NOOP",
+          "name": "추간판탈출증(수술 없음)",
+          "rate": 23,
+          "ref": "V-A"
+        },
+        {
+          "code": "SP-HNP-OP",
+          "name": "추간판탈출증(수술·유합 외)",
+          "rate": 24,
+          "ref": "V-D-1-b"
+        },
+        {
+          "code": "SP-HNP-FUS",
+          "name": "추간판탈출증(관절유합술)",
+          "rate": 24,
+          "ref": "V-D-2-b"
+        }
+      ],
+      "두부(신경계)": [
+        {
+          "code": "HD-NEURO-MILD",
+          "name": "신경학적 손상(경도)",
+          "rate": 12
+        },
+        {
+          "code": "HD-NEURO-MOD",
+          "name": "신경학적 손상(중등도)",
+          "rate": 27
+        },
+        {
+          "code": "HD-NEURO-SEV",
+          "name": "신경학적 손상(고도)",
+          "rate": 52
+        },
+        {
+          "code": "HD-NEURO-EXT",
+          "name": "신경학적 손상(극도)",
+          "rate": 100
+        }
+      ],
+      "안면부(시각)": [
+        {
+          "code": "FC-VISION-BOTH",
+          "name": "양안 시력상실",
+          "rate": 85
+        },
+        {
+          "code": "FC-VISION-ONE",
+          "name": "단안 시력상실",
+          "rate": 24
+        }
+      ],
+      "흉부": [
+        {
+          "code": "CH-PLEURA-ADH",
+          "name": "늑막유착",
+          "rate": 16
+        },
+        {
+          "code": "CH-CHEST-PAIN",
+          "name": "흉통·호흡곤란",
+          "rate": 11
+        }
+      ],
+      "복부/비뇨기": [
+        {
+          "code": "AB-ADHESION",
+          "name": "장유착/비장절제 등",
+          "rate": 15
+        },
+        {
+          "code": "AB-KIDNEY-RUP",
+          "name": "신장파열",
+          "rate": 30
+        },
+        {
+          "code": "AB-URETHRA-TEAR-LO",
+          "name": "요도파열(경도)",
+          "rate": 9
+        },
+        {
+          "code": "AB-URETHRA-TEAR-HI",
+          "name": "요도파열(중등도)",
+          "rate": 19
+        },
+        {
+          "code": "AB-TESTIS-LOSS",
+          "name": "고환 상실",
+          "rate": 25
+        },
+        {
+          "code": "AB-PENIS-INJ",
+          "name": "음경 손상",
+          "rate": 15
+        }
+      ],
+      "상지(견관절)": [
+        {
+          "code": "UP-SHOULDER-STIFF",
+          "name": "견관절 강직",
+          "rate": 18
+        },
+        {
+          "code": "UP-SHOULDER-MALUN",
+          "name": "견관절 부정유합",
+          "rate": 11
+        }
+      ],
+      "상지(주관절)": [
+        {
+          "code": "UP-ELBOW-STIFF",
+          "name": "주관절 강직",
+          "rate": 13
+        }
+      ],
+      "상지(완관절)": [
+        {
+          "code": "UP-WRIST-STIFF",
+          "name": "완관절 강직",
+          "rate": 13
+        }
+      ],
+      "하지(골반/고관절)": [
+        {
+          "code": "LW-PELV-PUB-UNI",
+          "name": "치골 편측지",
+          "rate": 5
+        },
+        {
+          "code": "LW-PELV-PUB-BI",
+          "name": "치골 양측지",
+          "rate": 11
+        },
+        {
+          "code": "LW-PELV-SYMP",
+          "name": "치골 결합부",
+          "rate": 20
+        },
+        {
+          "code": "LW-PELV-PEL",
+          "name": "골반골",
+          "rate": 27
+        },
+        {
+          "code": "LW-HIP-STIFF-MI",
+          "name": "고관절 강직(경도)",
+          "rate": 12
+        },
+        {
+          "code": "LW-HIP-STIFF-MO",
+          "name": "고관절 강직(중등도)",
+          "rate": 15
+        }
+      ],
+      "하지(슬관절)": [
+        {
+          "code": "LW-KNEE-ACL",
+          "name": "전/후방 십자인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MCL",
+          "name": "측부인대",
+          "rate": 29
+        },
+        {
+          "code": "LW-KNEE-MENISC",
+          "name": "반월상연골",
+          "rate": 7
+        },
+        {
+          "code": "LW-KNEE-STIFF",
+          "name": "슬관절 강직",
+          "rate": 10
+        }
+      ],
+      "하지(족관절)": [
+        {
+          "code": "LW-ANKLE-STIFF",
+          "name": "족관절 강직",
+          "rate": 14
+        }
+      ],
+      "하지(족부)": [
+        {
+          "code": "LW-FOOT-AMP",
+          "name": "족부 절단",
+          "rate": 43
+        },
+        {
+          "code": "LW-FOOT-HALLUX",
+          "name": "무지 절단",
+          "rate": 14
+        },
+        {
+          "code": "LW-FOOT-TOE",
+          "name": "기타 족지 절단",
+          "rate": 9
+        },
+        {
+          "code": "LW-FOOT-TALUS",
+          "name": "거골 골절",
+          "rate": 11
+        },
+        {
+          "code": "LW-FOOT-CALC",
+          "name": "종골 골절",
+          "rate": 15
+        },
+        {
+          "code": "LW-FOOT-OTHER",
+          "name": "기타 족근/족부 골절",
+          "rate": 7
+        }
+      ]
+    }
+  }
+}
