@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+body { @apply bg-white text-slate-900; }
+.container { @apply max-w-6xl mx-auto px-4; }
+
+/* smooth auto-typing caret blink for hero */
+.typing-caret::after {
+  content: "|";
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink { to { visibility: hidden; } }
